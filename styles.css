@@ -1,0 +1,30 @@
+.cards{
+
+    margin-top: 100px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+.card-button{
+
+    box-shadow: 1px 1px;
+
+    color: blueviolet;
+
+    background-color: white;
+}
+
+
+.uk-card-body{
+
+    background-image: linear-gradient(#000000,#B74ECD);;
+}
+
+
+.pre-next{
+
+    margin-top: 30px;
+}
