@@ -28,3 +28,9 @@ Bootstrap<br>
 Figma<br>
 React<br>   </p>
 
+<h1>Team Members</h1>
+Ishita Jinturkar (Team Leader)
+Adi Gulalkari (Develepor)
+Vivaan Rawther (Develepor)
+Pranay Parikh (Designer)
+
