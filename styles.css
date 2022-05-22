@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Koulen&family=Laila:wght@500&family=League+Spartan&family=Merriweather:ital@1&family=Oleo+Script&family=Plus+Jakarta+Sans:wght@300&family=Spectral:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -14,12 +16,12 @@
 
 .nav-logo {
     font-size: 40px;
-    position: absolute;
-    left: 5%;
 }
 
 .nav-items {
     /* border: 2px solid yellow; */
+    position: relative;
+    padding: 2%;
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -48,6 +50,12 @@
     color: #4A1D54;
 }
 
+.nav-data {
+    color: #4A1D54;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .landing {
     min-width: 100vw;
     min-height: 100vh;
@@ -72,7 +80,12 @@
 }
 
 .main-box:hover {
-    box-shadow: 0px 0px 100px rgba(183, 78, 205, 0.5);
+    box-shadow: 0px 0px 100px rgba(183, 78, 205, 0.8);
+}
+
+.heading {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 .logo {
@@ -143,11 +156,61 @@
     box-shadow: 80px 0px 100px rgba(183, 78, 205, 0.5);
 }
 
+.box1 {
+    position: absolute;
+    width: 158.5px;
+    height: 150.14px;
+    left: 1150.5px;
+    top: 381.91px;
+    border-right: 2px solid #B74ECD;
+    border-top: 2px solid #B74ECD;
+}
+
+.box2 {
+    position: absolute;
+    width: 72.5px;
+    height: 131.36px;
+    left: 1220px;
+    top: 252.55px;
+    border-left: 2px solid #B74ECD;
+    border-top: 2px solid #B74ECD;
+}
+
+.box3 {
+    position: absolute;
+    width: 97px;
+    height: 126.6px;
+    left: 288.5px;
+    top: 348.93px;
+    border-left: 2px solid #B74ECD;
+    border-top: 2px solid #B74ECD;
+}
+
+.box4 {
+    position: absolute;
+    width: 180.5px;
+    height: 170.51px;
+    left: 110px;
+    top: 258.99px;
+    border-left: 2px solid #B74ECD;
+    border-bottom: 2px solid #B74ECD;
+}
+
 @media screen and (max-width: 1000px) {
     .image1,
     .image2,
     .image3,
     .image4 {
+        display: none;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        display: none;
+    }
+    .register,
+    .trending {
         display: none;
     }
 }
