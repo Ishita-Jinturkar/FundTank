@@ -29,8 +29,8 @@ Figma<br>
 React<br>   </p>
 
 <h1>Team Members</h1>
-Ishita Jinturkar (Team Leader)
-Adi Gulalkari (Develepor)
-Vivaan Rawther (Develepor)
-Pranay Parikh (Designer)
+Ishita Jinturkar (Team Leader)<br>
+Adi Gulalkari (Develepor)<br>
+Vivaan Rawther (Develepor)<br>
+Pranay Parikh (Designer)<br>
 
