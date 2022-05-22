@@ -26,7 +26,7 @@ Javascript<br>
 JQuery<br>
 Bootstrap<br>
 Figma<br>
-React<br>   </p>
+ </p>
 
 <h1>Team Members</h1>
 Ishita Jinturkar (Team Leader)<br>
