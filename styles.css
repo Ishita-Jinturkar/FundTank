@@ -2,6 +2,50 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    position: relative;
+    /* border: 2px solid red; */
+    margin: 0;
+}
+
+.nav-logo {
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+}
+
+.nav-items {
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-decoration: none;
+}
+
+.fund {
+    color: #4A1D54;
+}
+
+.tank {
+    color: #4A1D54;
+    font-weight: bold;
+}
+
+.nav-items li {
+    padding: 10px;
+}
+
+.nav-items a {
+    color: #B74ECD;
+}
+
+.home-class {
+    color: #4A1D54;
 }
 
 .landing {
