@@ -37,12 +37,31 @@ hr,
   margin-right: 10%;
   display: block;
 }
+
 .card {
   float: left;
-  position: relative;
+  background-image: linear-gradient(black, purple);
+
+  height: 35rem;
 }
-.img1 {
-  float: left;
-  width: 35%;
-  height: 100%;
+.btn {
+  background-color: white;
+  color: #b74ecd;
+  width: 100%;
+  margin-top: 30%;
+  border: none;
+}
+.card-title {
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.card-text {
+  color: rgb(201, 199, 199);
+  margin-top: 15%;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: none;
 }
