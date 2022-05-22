@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Koulen&family=Laila:wght@500&family=League+Spartan&family=Merriweather:ital@1&family=Oleo+Script&family=Plus+Jakarta+Sans:wght@300&family=Spectral:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    position: relative;
+    /* border: 2px solid red; */
+    margin: 0;
+}
+
+.nav-logo {
+    font-size: 40px;
+}
+
+.nav-items {
+    /* border: 2px solid yellow; */
+    position: relative;
+    padding: 2%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-decoration: none;
+}
+
+.fund {
+    color: #4A1D54;
+}
+
+.tank {
+    color: #4A1D54;
+    font-weight: bold;
+}
+
+.nav-items li {
+    padding: 10px;
+}
+
+.nav-items a {
+    color: #B74ECD;
+}
+
+.home-class {
+    color: #4A1D54;
+}
+
+.nav-data {
+    color: #4A1D54;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.landing {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #000;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.main-box {
+    padding: 1rem;
+    min-height: 60vh;
+    width: 50vw;
+    border: 2px solid #B74ECD;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(180deg, #B74ECD 2.5%, rgba(0, 0, 0, 0) 24.46%);
+    align-items: center;
+}
+
+.main-box:hover {
+    box-shadow: 0px 0px 100px rgba(183, 78, 205, 0.8);
+}
+
+.heading {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    transform: translateY(50px);
+}
+
+.btns {
+    align-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 button {
+    background: linear-gradient(169.02deg, #B74ECD -6.61%, #4A1D54 102.8%);
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 175%;
+}
+
+.btn2 button {
+    background: linear-gradient(180deg, #B74ECD 2.5%, rgba(0, 0, 0, 0) 24.46%);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px 24px;
+    line-height: 175%;
+    text-align: center;
+    color: #B74ECD;
+    border: 0.8px solid #B74ECD;
+}
+
+.name {
+    color: white;
+    text-align: center;
+}
+
+.image1 {
+    transform: translateY(5vh) translateX(5vw);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: -20px -50px 100px rgba(183, 78, 205, 0.5);
+}
+
+.image2 {
+    transform: translateX(85vw)translateY(-5vh);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: -80px -50px 100px rgba(183, 78, 205, 0.5);
+}
+
+.image3 {
+    transform: translateX(10vw) translateY(10vh);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: -80px 0 90px rgba(183, 78, 205, 0.5);
+}
+
+.image4 {
+    transform: translateX(80vw) translateY(-5vh);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: 80px 0px 100px rgba(183, 78, 205, 0.5);
+}
+
+.box1 {
+    position: absolute;
+    width: 158.5px;
+    height: 150.14px;
+    left: 1150.5px;
+    top: 381.91px;
+    border-right: 2px solid #B74ECD;
+    border-top: 2px solid #B74ECD;
+}
+
+.box2 {
+    position: absolute;
+    width: 72.5px;
+    height: 131.36px;
+    left: 1220px;
+    top: 252.55px;
+    border-left: 2px solid #B74ECD;
+    border-top: 2px solid #B74ECD;
+}
+
+.box3 {
+    position: absolute;
+    width: 97px;
+    height: 126.6px;
+    left: 288.5px;
+    top: 348.93px;
+    border-left: 2px solid #B74ECD;
+    border-top: 2px solid #B74ECD;
+}
+
+.box4 {
+    position: absolute;
+    width: 180.5px;
+    height: 170.51px;
+    left: 110px;
+    top: 258.99px;
+    border-left: 2px solid #B74ECD;
+    border-bottom: 2px solid #B74ECD;
+}
+
+@media screen and (max-width: 1000px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4 {
+        display: none;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        display: none;
+    }
+    .register,
+    .trending {
+        display: none;
+    }
+}
