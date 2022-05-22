@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #000;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.main-box {
+    padding: 1rem;
+    min-height: 60vh;
+    width: 50vw;
+    border: 2px solid #B74ECD;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(180deg, #B74ECD 2.5%, rgba(0, 0, 0, 0) 24.46%);
+    align-items: center;
+}
+
+.main-box:hover {
+    box-shadow: 0px 0px 100px rgba(183, 78, 205, 0.5);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    transform: translateY(50px);
+}
+
+.btns {
+    align-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 button {
+    background: linear-gradient(169.02deg, #B74ECD -6.61%, #4A1D54 102.8%);
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 175%;
+}
+
+.btn2 button {
+    background: linear-gradient(180deg, #B74ECD 2.5%, rgba(0, 0, 0, 0) 24.46%);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px 24px;
+    line-height: 175%;
+    text-align: center;
+    color: #B74ECD;
+    border: 0.8px solid #B74ECD;
+}
+
+.name {
+    color: white;
+    text-align: center;
+}
+
+.image1 {
+    transform: translateY(5vh) translateX(5vw);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: -20px -50px 100px rgba(183, 78, 205, 0.5);
+}
+
+.image2 {
+    transform: translateX(85vw)translateY(-5vh);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: -80px -50px 100px rgba(183, 78, 205, 0.5);
+}
+
+.image3 {
+    transform: translateX(10vw) translateY(10vh);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: -80px 0 90px rgba(183, 78, 205, 0.5);
+}
+
+.image4 {
+    transform: translateX(80vw) translateY(-5vh);
+    border-radius: 50%;
+    border: 2px solid rgba(183, 78, 205);
+    box-shadow: 80px 0px 100px rgba(183, 78, 205, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+    .image1,
+    .image2,
+    .image3,
+    .image4 {
+        display: none;
+    }
+}
